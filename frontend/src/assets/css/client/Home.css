@@ -1,0 +1,210 @@
+/* Home Container */
+.home-container {
+    padding: 20px;
+    background-color: #121212;
+    color: #fff;
+    min-height: 100vh;
+}
+
+/* Title Styling */
+.home-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    /* text-align: center; */
+    color: #1db954;
+}
+
+.songs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* Ensure even grid layout */
+    gap: 20px;
+    justify-items: center;
+}
+
+.song-card {
+    background-color: #181818;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    /* Ensures card size consistency */
+    transition: transform 0.3s;
+}
+
+.song-card:hover {
+    transform: translateY(-5px);
+    /* Small hover effect for interaction */
+}
+
+/* Song Image */
+.song-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Song Title */
+.song-title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Add Button */
+.add-button {
+    background-color: #1db954;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #14833b;
+}
+
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #1c1c1c;
+    padding: 20px;
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 10px;
+    color: white;
+}
+
+.playlist-options {
+    margin: 20px auto;
+}
+
+.playlist-option {
+    margin-bottom: 10px;
+}
+
+.done-button,
+.close-button {
+    background-color: #37b91d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.close-button {
+    background-color: #b91d1d;
+}
+
+.done-button:hover,
+.close-button:hover {
+    background-color: #148314;
+}
+
+.close-button:hover {
+    background-color: #831414;
+}
+
+.create-playlist-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.create-playlist-button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.create-playlist-button {
+    background-color: transparent;
+    border: 1px solid #148314;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-playlist-button:hover {
+    border: 1px solid #148314;
+    background-color: #218838;
+}
+
+
+.home-container {
+    padding: 20px;
+}
+
+.songs-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.song-card {
+    width: 200px;
+    border: 1px solid #2222224a;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.song-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.song-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}
