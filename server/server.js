@@ -15,7 +15,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(cors(
     {
-        origin: 'http://localhost:5173',
+        origin: 'https://musify-frontend-64ct.onrender.com',
         credentials: true,
     }
 ));
