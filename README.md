@@ -88,6 +88,7 @@ npm run dev
 ```
 
 ## Usage
+-Admin credentials: email - john@gmail.com, password - john
 - Login/Signup: Access the login/signup page to authenticate or register a new user.
 - Home Page: Browse and search for songs and playlists.
 - Playlists: View and manage your playlists. Click on a playlist to view its details and songs.
